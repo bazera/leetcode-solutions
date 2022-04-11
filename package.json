@@ -1,0 +1,24 @@
+{
+  "name": "leetcode-solutions",
+  "version": "1.0.0",
+  "description": "Solutions of some of LeetCode problems",
+  "scripts": {
+    "start": "nodemon playground"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bazera/leetcode-solutions.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "bazera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bazera/leetcode-solutions/issues"
+  },
+  "homepage": "https://github.com/bazera/leetcode-solutions#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
