@@ -6,13 +6,13 @@ var spiralOrder = function (matrix) {
   let m = matrix.length;
   let n = matrix[0].length;
 
-  let i = (j = start_i = start_j = 0);
+  let i = (j = 0);
 
   const arr = [];
 
   counter = 0;
 
-  while (arr.length < matrix.length * matrix[0].length) {
+  while (arr.length < m * n) {
     arr.push(matrix[i][j]);
 
     if (i === counter + 0 && j !== n - 1 - counter) {
