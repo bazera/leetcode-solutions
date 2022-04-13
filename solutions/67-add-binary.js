@@ -19,7 +19,6 @@ var addBinary = function (a, b) {
   let res = "";
 
   const add = (x, y) => {
-    console.log(x, y);
     switch (x + y) {
       case 2:
         if (save) {
