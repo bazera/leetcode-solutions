@@ -116,8 +116,8 @@ class MyLinkedList {
       return;
     }
 
-    let node = this.getNode(index);
     let prevNode = this.getNode(index - 1);
+    let node = prevNode.next;
 
     prevNode.next = node.next;
   }
